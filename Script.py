@@ -14,7 +14,6 @@ def creadorGrupo(nombreDeGrupo, mensajeBienvenida, nombre):
         entrada = csv.reader(File)
         for linea in entrada:
             nombre = ''.join(linea)
-            print(nombre)
             pa.typewrite(nombre)
             pa.press('enter')
 
@@ -29,4 +28,4 @@ def creadorGrupo(nombreDeGrupo, mensajeBienvenida, nombre):
     pa.press('enter')
 
     
-creadorGrupo("Prueba","Hola","prueba.csv")
+creadorGrupo("Prueba","Mensaje de prueba","prueba.csv")
