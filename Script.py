@@ -24,5 +24,9 @@ def creadorGrupo(nombreDeGrupo, mensajeBienvenida, nombre):
     pa.typewrite(nombreDeGrupo)
     pa.press('enter')
 
+    time.sleep(5)
+    pa.typewrite(mensajeBienvenida)
+    pa.press('enter')
+
     
 creadorGrupo("Prueba","Hola","prueba.csv")
